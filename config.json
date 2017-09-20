@@ -1,0 +1,32 @@
+{
+	"paths": {
+		"src": {
+			"css": "./src/sass/",
+			"fav": "./src/fav/",
+			"fonts": "./src/fonts/",
+			"img": "./src/img/",
+			"js": "./src/js/",
+			"tpl": "./craft/templates/"
+		},
+		"dist": {
+			"base": "./htdocs",
+			"resources": "./resources/",
+			"css": "./htdocs/resources/css/",
+			"fav": "./htdocs/resources/fav/",
+			"fonts": "./htdocs/resources/fonts/",
+			"img": "./htdocs/resources/img/",
+			"js": "./htdocs/resources/js/",
+			"tpl": "./htdocs/resources/tpl/"
+		}
+	},
+	"urls": {
+		"protocol": "http",
+		"host": "website.dev"
+	},
+	"vars": {
+		"projectName": "Website Name",
+		"themeColor": "#000000",
+		"iconBackground": "#ffffff",
+		"siteCss": "styles.css"
+	}
+}
