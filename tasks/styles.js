@@ -5,7 +5,7 @@ const $        = require('gulp-load-plugins')({ pattern: ['*'] }),
 
 // Task
 $.gulp.task(taskName, function() {
-	$.gulp.src(config.paths.src.css + '**/*.scss')
+	$.gulp.src(config.paths.src.css + 'main.scss')
 		.pipe($.plumber(function (err) { console.log(err) } ))
 		.pipe($.sourcemaps.init())
 		.pipe($.sass())
